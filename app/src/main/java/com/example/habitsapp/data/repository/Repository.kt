@@ -42,4 +42,9 @@ class Repository @Inject constructor(
         habitDao.deleteHabit(id)
     }
 
+
+    fun searchHabits(title:String):Flow<List<Habit>>{
+        return habitDao.searchHabits(title)
+    }
+
 }

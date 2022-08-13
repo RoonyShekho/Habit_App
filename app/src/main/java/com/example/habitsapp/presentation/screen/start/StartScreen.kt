@@ -49,7 +49,6 @@ fun StartScreen(
     }
 
 
-
     if (isCompleted.value!!) {
         LaunchedEffect(key1 = true) {
             navController.navigate(Screen.Home.route)
@@ -72,8 +71,7 @@ fun StartScreen(
                     context,
                     progress.value!!.title + "is completed!",
                     Toast.LENGTH_LONG
-                )
-                    .show()
+                ).show()
 
                 navController.navigate(Screen.Home.route)
             }
@@ -89,7 +87,6 @@ fun StartScreen(
             viewModel.handleCountDownTimer()
         }
     }
-
 }
 
 

@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun CountDownButton(
+    modifier:Modifier = Modifier,
     isPlaying: Boolean,
     isCompleted:Boolean,
     optionSelected: () -> Unit

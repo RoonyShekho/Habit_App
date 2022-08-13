@@ -9,4 +9,5 @@ sealed class Screen(val route:String){
         }
     }
     object Completed:Screen("completed_screen")
+    object Search:Screen("search_screen")
 }

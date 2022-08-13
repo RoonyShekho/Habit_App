@@ -23,7 +23,7 @@ get() = if(isLight) Color.Black else White
 
 val Colors.itemBackgroundColor
 @Composable
-get() = if(isLight) White else Gray.copy(alpha = 0.1f)
+get() = if(isLight) Purple200.copy(alpha = 0.077f) else Gray.copy(alpha = 0.1f)
 
 val Colors.backgroundColor
 @Composable

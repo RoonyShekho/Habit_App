@@ -42,6 +42,7 @@ class HomeViewModel @Inject constructor(
     fun onAction(action: TodoAction){
         when(action){
             is TodoAction.DeleteTodo -> deleteTodo(action)
+            else -> {}
         }
     }
 
