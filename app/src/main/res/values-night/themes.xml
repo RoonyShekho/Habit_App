@@ -4,5 +4,4 @@
     <style name="Theme.HabitsApp" parent="android:Theme.Material.NoActionBar">
         <item name="android:statusBarColor">@color/black</item>
     </style>
-
 </resources>

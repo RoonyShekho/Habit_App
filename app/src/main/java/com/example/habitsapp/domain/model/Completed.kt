@@ -10,5 +10,6 @@ data class Completed(
     @PrimaryKey
     val id:Int? = null,
     val title:String = "",
-    val duration:String = ""
+    val duration:String = "",
+    val date:String = ""
 )

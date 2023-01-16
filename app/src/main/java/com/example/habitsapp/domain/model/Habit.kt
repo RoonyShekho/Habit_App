@@ -7,9 +7,9 @@ import androidx.room.PrimaryKey
     tableName = "habit_table"
 )
 data class Habit(
-    @PrimaryKey
-    val id:Int? = null,
-    val title:String = "",
-    val hours:Long = 0,
-    val minutes:Long = 0
+    @PrimaryKey(autoGenerate = false)
+    var id:Int? = null,
+    var title:String = "",
+    var hours:Long = 0,
+    var minutes:Long = 0
 )
